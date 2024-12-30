@@ -1,0 +1,120 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-link {
+  font-size: 1rem;
+  margin-right: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+.nav-link:hover {
+  color: #00aaff;
+}
+
+
+header {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: white;
+  padding: 3rem 0;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+header p {
+  font-size: 1.2rem;
+}
+
+
+#about {
+  background: #f9f9f9;
+  padding: 4rem 0;
+  text-align: center;
+}
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #007bff;
+}
+#about p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+
+#gallery {
+  padding: 4rem 0;
+}
+#gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #007bff;
+}
+#gallery .img-fluid {
+  border: 2px solid #ddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#gallery .img-fluid:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+#contact {
+  background: #f1f1f1;
+  padding: 4rem 0;
+  text-align: center;
+}
+#contact h2 {
+  font-size: 2rem;
+  color: #007bff;
+}
+#contact p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.profile-picture img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+footer p a {
+  color: #00aaff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+footer p a:hover {
+  color: #007bff;
+}
